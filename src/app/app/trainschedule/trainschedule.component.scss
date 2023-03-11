@@ -1,0 +1,38 @@
+
+.container-fluid{
+    display: grid;
+    margin: -80px;
+
+}
+.form-group{
+    padding: 50px;
+    margin: 20px;
+    
+}
+.col-group{
+    padding: 3px;
+   
+   
+}
+.button {
+    background-color: #150494d6; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: px;
+    transition-duration: 0.4s;
+    
+  }
+  .button:hover {
+    background-color: #1e04ae; /* Green */
+    color: white;
+  }
+  .btn-primary{
+    padding: 5px;
+    margin: 5px;
+  }
+  

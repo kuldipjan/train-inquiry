@@ -1,0 +1,40 @@
+
+.container-fluid{
+    display: grid;
+    margin: -80px;
+
+}
+.col{
+    text-align: end;
+    
+    
+}
+.center{
+    margin: 50px;
+    padding: 50px;
+}
+input{
+    position: relative;
+    
+}
+.button {
+    background-color: #150494d6; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: px;
+    transition-duration: 0.4s;
+    
+  }
+  .button:hover {
+    background-color: #ceccd9; /* Green */
+    color: white;
+  }
+  .btn-primary{
+    padding: 5px;
+    margin: 5px;
+  }
