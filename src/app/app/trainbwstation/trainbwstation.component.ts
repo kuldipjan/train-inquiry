@@ -7,8 +7,8 @@ import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms'
   styleUrls: ['./trainbwstation.component.scss']
 })
 export class TrainbwstationComponent implements OnInit {
-  // fstation: string = '';
-  // tstation: string = '';
+  fname: string = '';
+  lname: string = '';
   tital = 'Reactiveforms';
   reactiveForm: any = FormGroup;
  
@@ -26,13 +26,21 @@ export class TrainbwstationComponent implements OnInit {
       fname: [null, Validators.required],
       lname: [null, Validators.required]
     });
-  //   this.reactiveForm = new FormGroup({
-  //     fname    : new FormControl(),
-  //     lname    : new FormControl()
-  // });
+    this.reactiveForm = new FormGroup({
+      fname: new FormControl(''),
+      lname: new FormControl(''),
+    });
+  }
+  // get fname() {
+  //   return this.reactiveForm.get('fname')!;
+  // }
+
+  // get lname() {
+  //   return this.reactiveForm.get('lname')!;
+  // }
 
     
     
   }
 
-}
+

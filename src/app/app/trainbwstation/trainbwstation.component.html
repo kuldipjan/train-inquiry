@@ -3,8 +3,6 @@
 <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
     <div class="center">
   <div class="form-group">
-    
-       
     <label for="fname">From Station</label><br>
     <input type="text" id="text" name="fname" value="fname"  placeholder="From Station" size="50" 
      formControlName="fname" />
@@ -17,7 +15,7 @@
 <!-- <p>Value: {{ tstation }}</p> -->
 <button type="button" class="btn btn-primary btn-sm">Clear</button>
 </div>
-<button type="button" (click)="onSubmit()" [disabled]="reactiveForm.invalid">Submit</button>
+<button type="button" (click)="onSubmit()">Submit</button>
 
 </div>
 </form>
@@ -26,7 +24,7 @@
     <thead>
       <tr>
         <th scope="col">Sr.</th>
-        <th scope="col">Station</th>
+        <th scope="coxl">Station</th>
        
         
       </tr>
