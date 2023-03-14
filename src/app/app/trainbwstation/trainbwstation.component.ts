@@ -11,6 +11,7 @@ export class TrainbwstationComponent implements OnInit {
   lname: string = '';
   tital = 'Reactiveforms';
   reactiveForm: any = FormGroup;
+  
  
   
   onSubmit() {
@@ -22,14 +23,16 @@ export class TrainbwstationComponent implements OnInit {
   constructor(private builder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.reactiveForm = this.builder.group({
-      fname: [null, Validators.required],
-      lname: [null, Validators.required]
-    });
+    // this.reactiveForm = this.builder.group({
+    //   fname: [null, Validators.required],
+    //   lname: [null, Validators.required]
+    // });
     this.reactiveForm = new FormGroup({
       fname: new FormControl(''),
       lname: new FormControl(''),
     });
+    this.reactiveForm.get('fname').value
+    this.reactiveForm.get('lname').value
   }
   // get fname() {
   //   return this.reactiveForm.get('fname')!;

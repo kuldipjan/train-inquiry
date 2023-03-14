@@ -6,13 +6,13 @@
     <label for="fname">From Station</label><br>
     <input type="text" id="text" name="fname" value="fname"  placeholder="From Station" size="50" 
      formControlName="fname" />
-    <!-- <p>Value: {{ fstation }}</p> -->
+     <p>Value: {{ reactiveForm.controls.fname.value }}</p>
     <button type="button" class="btn btn-primary btn-sm">Clear</button>
 </div>
 <div class="form-group">
 <label for="fname">To Station</label><br>
 <input type="text" placeholder="To Station" name="lname" value="lname" size="50" formControlName="lname" />
-<!-- <p>Value: {{ tstation }}</p> -->
+<p>Value: {{ reactiveForm.controls.lname.value }}</p>
 <button type="button" class="btn btn-primary btn-sm">Clear</button>
 </div>
 <button type="button" (click)="onSubmit()">Submit</button>
