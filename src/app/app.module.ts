@@ -10,6 +10,8 @@ import { LivestationComponent } from './app/livestation/livestation.component';
 import { SpotyourtrainComponent } from './app/spotyourtrain/spotyourtrain.component';
 import { HeaderComponent } from './app/header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({

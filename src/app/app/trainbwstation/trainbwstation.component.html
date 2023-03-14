@@ -4,18 +4,15 @@
     <div class="center">
   <div class="form-group">
     <label for="fname">From Station</label><br>
-    <input type="text" id="text" name="fname" value="fname"  placeholder="From Station" size="50" 
-     formControlName="fname" />
-     <p>Value: {{ reactiveForm.controls.fname.value }}</p>
+    <input type="text" name="fname" value="fname"placeholder="From Station" size="50" formControlName="fname" />
     <button type="button" class="btn btn-primary btn-sm">Clear</button>
 </div>
 <div class="form-group">
 <label for="fname">To Station</label><br>
-<input type="text" placeholder="To Station" name="lname" value="lname" size="50" formControlName="lname" />
-<p>Value: {{ reactiveForm.controls.lname.value }}</p>
+<input type="text" placeholder="To Station"  name="lname" value="lname" size="50" formControlName="lname" />
 <button type="button" class="btn btn-primary btn-sm">Clear</button>
 </div>
-<button type="button" (click)="onSubmit()">Submit</button>
+<button type="button" (click)="onSubmit()" [disabled]="reactiveForm.invalid" >Submit</button>
 
 </div>
 </form>

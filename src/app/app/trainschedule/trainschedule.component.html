@@ -1,16 +1,16 @@
 
 <app-header></app-header>
 <div class="">
-  <form class="form-group">
+  <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
     <div class="col-group">
       <label for="fname">Train No./Name</label><br>
-      <input type="text" id="fname" name="fname" placeholder="Train No./Name" size="50">
+      <input type="text" value="fname" name="fname" placeholder="Train No./Name" size="50" formControlName="fname" />
       <button type="button" class="btn btn-primary btn-xs">Clear</button><br><br>
   
       <label  for="date">Select Date</label><br>
-      <input  type="date" id="date" height="50" width="50"><br>
+      <input  type="date" id="date" height="50" width="50" value="date" formControlName="date" /><br>
      </div>
-     <div class="col-group"><button type="submit" class="button">Submit</button>
+     <div class="col-group"><button type="submit"  (click)="onSubmit()"  [disabled]="reactiveForm.invalid"  >Submit</button>
      </div>
     </form>
 </div>
