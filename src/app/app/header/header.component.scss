@@ -1,15 +1,19 @@
 .nav-tabs{
     float: right;
-   
-    background-color: aqua;
-   
+    padding: 5px;
+}
+.nav-link{
+    color: #f8f9fa;
 }
 
-.bg-color{
-    background: darkcyan;
-    padding-top: 10px;
-    margin:2px;
+.container{
+    background-color: rgb(14, 146, 96);
+    
 }
 .text-color{
     color:#ffffff;
+}
+.row{
+    margin: 1px;
+    padding: 25px;
 }

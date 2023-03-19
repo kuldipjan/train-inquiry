@@ -11,6 +11,7 @@ import { SpotyourtrainComponent } from './app/spotyourtrain/spotyourtrain.compon
 import { HeaderComponent } from './app/header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AboutusComponent } from './app/aboutus/aboutus.component';
 
 
 
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     TrainbwstationComponent,
     LivestationComponent,
     SpotyourtrainComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutusComponent
     
 
   ],

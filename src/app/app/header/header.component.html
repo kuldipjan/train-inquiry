@@ -1,4 +1,4 @@
-<div class="container bg-color">
+<div class="container">
     <div class="row">
       <div class="col">
         <h1 class="text-color">Train Inquriy System</h1>
@@ -6,11 +6,11 @@
         <div class="col">
           <ul ngbNav #nav="ngbNav" class="nav-tabs">
               <li ngbNavItem >
-                <a ngbNavLink>Home</a>
+                <a ngbNavLink href="#" class=""routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
          <!-- <ng-template ngbNavContent>First content</ng-template> -->
               </li>
-              <li ngbNavItem routerLink="about">
-                <a ngbNavLink>About Us</a>
+              <li ngbNavItem>
+                <a ngbNavLink href="#" class=""routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">About Us</a>
           <!-- <ng-template ngbNavContent>Second content</ng-template> -->
               </li>
           </ul>

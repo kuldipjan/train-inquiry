@@ -1,6 +1,6 @@
 <app-header></app-header>
-<div class="center">
-  <form  [formGroup]="myGroup"(ngSubmit)="onsubmit()">
+
+<form  [formGroup]="myGroup"(ngSubmit)="onsubmit()">
     <div class="form-group">
       <label for="fname">Train No./Name</label><br>
             <input type="text" [(ngModel)]="fname" placeholder="Train No/Name" size="50" formControlName="fname" />
@@ -8,35 +8,85 @@
             <!-- <p>Value: {{ fstation }}</p> -->
         </div>
     <button type="button" (click)="onsubmit()" [disabled]="myGroup.invalid">Submit</button>
-  </form>
-</div>
-<table class="table">
-    <thead>
-      <tr>
-        <th scope="col">Arrival</th>
-        <th scope="col">Station</th>
-        <th scope="col">Depar</th>
-      </tr>
-    </thead>
+  </form><br><br><br><br>
+
+  <table class="table">
     <tbody>
       <tr>
-        <th scope="row">1</th>
-        <td>VALSAD BL</td>
-        <td>1</td>
-       
+        <td colspan="3">
+          <div class="textalign-center">
+            <span class="left"><b>22956</b>
+              KUTCH EXPRESS<br></span>
+            <span class="right">Daily | Superfast</span><br>
+            </div>
+            <div class="textalign-center">
+              <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
+              <b>--03:14 Hrs.--</b>
+              2S,SL,3A,2A,1A
+              <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
+              </div>
+            </td>
       </tr>
       <tr>
-        <th scope="row">2</th>
-        <td>NABIPUR NL</td>
-        <td>1</td>
-       
+        <td colspan="3">
+          <div class="textalign-center">
+            <span class="left"><b>13034</b>
+              GUJARAT QUEEN<br></span>
+            <span class="right">Daily | Memu</span><br>
+            </div>
+            <div class="textalign-center">
+              <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
+              <b>--03:14 Hrs.--</b>
+              2S,SL,3A,2A,1A
+              <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
+              </div>
+            </td>
       </tr>
       <tr>
-        <th scope="row">3</th>
-        <td>Vadodara BRC</td>
-        <td>1</td>
-        
+        <td colspan="3">
+          <div class="textalign-center">
+            <span class="left"><b>22056</b>
+              SABARMATI EXPRESS<br></span>
+            <span class="right">Daily | Superfast</span><br>
+            </div>
+            <div class="textalign-center">
+              <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
+              <b>--03:14 Hrs.--</b>
+              2S,SL,3A,2A,1A
+              <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
+              </div>
+            </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <div class="textalign-center">
+            <span class="left"><b>22066</b>
+             VANDE BHARAT<br></span>
+            <span class="right">Daily | Superfast</span><br>
+            </div>
+            <div class="textalign-center">
+              <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
+              <b>--03:14 Hrs.--</b>
+              2S,SL,3A,2A,1A
+              <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
+              </div>
+            </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <div class="textalign-center">
+            <span class="left"><b>22046</b>
+              SAIRASTHRA EXPRSS<br></span>
+            <span class="right">Daily | Superfast</span><br>
+            </div>
+            <div class="textalign-center">
+              <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
+              <b>--03:14 Hrs.--</b>
+              2S,SL,3A,2A,1A
+              <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
+              </div>
+            </td>
       </tr>
     </tbody>
   </table>
-    
+

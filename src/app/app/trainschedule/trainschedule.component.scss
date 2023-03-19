@@ -35,4 +35,28 @@
     padding: 5px;
     margin: 5px;
   }
+  form{
+    padding: 15px;
+    margin-block-start: 10px;
+
+  }
+  
+  // ===============================table Css==========================/
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  .textalign-center{
+    text-align: center;
+  }
+  td {
+    background-color: rgb(173, 183, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+}
+b{
+  font-weight: bold;
+}
   
