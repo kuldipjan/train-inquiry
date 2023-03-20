@@ -195,40 +195,31 @@ export class TrainbwstationComponent implements OnInit {
           { stationname: "Thalassery", stationcode:"(TLY)" },  { stationname: "Bangarpet", stationcode:"(BWT)" }, 
           { stationname: "Thanjavur", stationcode:"(TJ)" },  { stationname: "Belgaum", stationcode:"(BGM)" }, 
           { stationname: "Tiruchchirappalli", stationcode:"(TPJ)" },  { stationname: "Bellary", stationcode:"(BAY)" }, 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ { stationname: "Bijapur", stationcode:"(BJP)" },  { stationname: "HOSHANGABAD", stationcode:"(HBD)" }, 
+ { stationname: "Davangere", stationcode:"(DVG)" },  { stationname: "ITARSI", stationcode:"(ET)" }, 
+ { stationname: "Dharwad", stationcode:"(DWR)" },  { stationname: "KATNI", stationcode:"(KTE)" }, 
+ { stationname: "Hospet", stationcode:"(HPT)" },  { stationname: "Kota", stationcode:"(KOTA)" }, 
+ { stationname: "Hubli", stationcode:"(UBL)" },  { stationname: "KOTA", stationcode:"(MYR)" }, 
+ { stationname: "Kengeri", stationcode:"(KGI)" },  { stationname: "PIPARIYA", stationcode:"(PPI)" }, 
+ { stationname: "Krishnarajapuram", stationcode:"(KJM)" },  { stationname: "Rewa", stationcode:"(REWA)" }, 
+ { stationname: "Mysore", stationcode:"(MYS)" },  { stationname: "SATNA", stationcode:"(STA)" }, 
+ { stationname: " Shimoga Town", stationcode:"(SMET)" },  { stationname: "SAUGOR", stationcode:"(SGO)" }, 
+ { stationname: " SSP Nilayam", stationcode:"(SSPN)" },  { stationname: " SAWAI MADHO", stationcode:"(SWM)" }, 
+ { stationname: " Vasco-Da-Gama", stationcode:"(VSG)" },  { stationname: "VIDISHA", stationcode:"(BHS)" }, 
+ { stationname: "BHARATPUR", stationcode:"(BTE)" },  { stationname: "Anand", stationcode:"(ANND)" }, 
+ { stationname: "Bina", stationcode:"(BINA)" },  { stationname: "Ankleshwar", stationcode:"(AKV)" }, 
+ { stationname: "DAMOH", stationcode:"(DMO)" },  { stationname: "Bharuch", stationcode:"(BH)" }, 
+ { stationname: "HABIBGANJ", stationcode:"(HBJ)" },  { stationname: "Mahesana", stationcode:"(MSH)" }, 
+ { stationname: "Bhavnagar Termin", stationcode:"(BVC)" },  { stationname: "Nagda", stationcode:"(NAD)" }, 
+ { stationname: "Chittorgarh Jn.", stationcode:"(COR)" },  { stationname: "Navsari", stationcode:"(NVS)" }, 
+ { stationname: "Gandhidham", stationcode:"(GIM)" },  { stationname: "New Bhuj", stationcode:"(NBVJ)" }, 
+ { stationname: "Indore", stationcode:"(IND)" },  { stationname: "Palanpur", stationcode:"(PNU)" }, 
+ { stationname: "Jamnagar", stationcode:"(JAM)" },  { stationname: "Ratlam", stationcode:"(RTM)" }, 
+ { stationname: " Nadiad", stationcode:"(ND)" },  { stationname: "Surendranagar", stationcode:"(SUNR)" }, 
+ { stationname: "Udhana", stationcode:"(UDN)" }, { stationname: "Valsad", stationcode:"(BL)" }, 
+ { stationname: "Ujjain", stationcode:"(UJN)" }, { stationname: "Veraval", stationcode:"(VAPI)" }, 
+ { stationname: "Vapi", stationcode:"(VAPI)" }, { stationname: "Viramgam", stationcode:"(VG)" }, 
+ 
 
 
 
