@@ -1,14 +1,5 @@
 
-.container-fluid{
-    display: grid;
-    margin: -80px;
 
-}
-.form-group{
-    padding: 50px;
-    margin: 20px;
-    
-}
 .col-group{
     padding: 3px;
    
@@ -35,11 +26,11 @@
     padding: 5px;
     margin: 5px;
   }
-  form{
-    padding: 15px;
-    margin-block-start: 10px;
-
-  }
+ form{
+  background-color: aqua;
+  padding: 50px;
+ }
+   
   
   // ===============================table Css==========================/
   .left{
@@ -55,6 +46,7 @@
     background-color: rgb(173, 183, 185);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
+    padding-top: -5px;
 }
 b{
   font-weight: bold;

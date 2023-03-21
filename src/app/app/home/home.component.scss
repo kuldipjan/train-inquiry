@@ -1,13 +1,9 @@
-
-.container-fluid{
-    display: grid;
-    margin: -80px;
-   
-}
 .card{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
     font-weight: 100;
+    align-items: center;
+    color: blue;
     
 
 }
@@ -34,7 +30,7 @@ th[sortable] {
     width: 22px;
     height: 22px;
     float: left;
-    margin-left: -22px;
+   
     }
     
     th[sortable].desc:before {
@@ -65,3 +61,57 @@ th[sortable] {
     bottom: 0;
     right: 0;
     }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Float four columns side by side */
+      .column {
+        float: center;
+        width: 30%;
+        padding: 0 0px;
+      }
+      .column{ margin: 50px;
+      padding: 6px;}
+      
+      /* Remove extra left and right margins, due to padding */
+      .row {margin: 100px;
+            padding-left: 100px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 0px;
+        }
+      }
+      
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(212, 206, 209, 0.2);
+        text-align: center;
+        background-color: #b3b3c2;
+        
+        
+        
+      }
+      .card:hover {
+        box-shadow: 0 16px 25px 0 rgba(23, 54, 132, 0.996);
+  }
+  .Container{
+    background-color: rgb(87, 231, 231);
+    padding: 1px;
+  }

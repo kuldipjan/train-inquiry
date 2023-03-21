@@ -12,6 +12,9 @@ export class SpotyourtrainComponent implements OnInit {
   myGroup:any;
 
   
+
+
+  
   onsubmit(){
         console.log(this.fname);
     }

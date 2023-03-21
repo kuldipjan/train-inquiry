@@ -1,19 +1,20 @@
-<div class="container">
+<div id="flex">
     <div class="row">
-      <div class="col">
+      
+      <div col="grid">
         <h1 class="text-color">Train Inquriy System</h1>
+        <ul ngbNav #nav="ngbNav" class="nav-tabs">
+          <li ngbNavItem >
+            <a ngbNavLink href="#" class=""routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+     <!-- <ng-template ngbNavContent>First content</ng-template> -->
+          </li>
+          <li ngbNavItem>
+            <a ngbNavLink href="#" class=""routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">About Us</a>
+      <!-- <ng-template ngbNavContent>Second content</ng-template> -->
+          </li>
+      </ul>
+     
       </div>
-        <div class="col">
-          <ul ngbNav #nav="ngbNav" class="nav-tabs">
-              <li ngbNavItem >
-                <a ngbNavLink href="#" class=""routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-         <!-- <ng-template ngbNavContent>First content</ng-template> -->
-              </li>
-              <li ngbNavItem>
-                <a ngbNavLink href="#" class=""routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">About Us</a>
-          <!-- <ng-template ngbNavContent>Second content</ng-template> -->
-              </li>
-          </ul>
-        </div>   
+     
     </div>
   </div>

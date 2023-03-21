@@ -1,19 +1,35 @@
 .nav-tabs{
-    float: right;
-    padding: 5px;
+ float: right;
+ padding-right: 20px;
+    margin-bottom: 1px;
+    margin-top: -49px;
+
 }
 .nav-link{
     color: #f8f9fa;
+    margin-block: 2px;
+    
+    
+    
 }
 
-.container{
+#flex{
     background-color: rgb(14, 146, 96);
+    padding-bottom: 15px;
+    padding-top: -20px;
+   
     
 }
 .text-color{
-    color:#ffffff;
+    text-align: center;
+    margin-top: 2px;
+    color: #f8f9fa;
+    
 }
-.row{
-    margin: 1px;
-    padding: 25px;
+h1{
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
+

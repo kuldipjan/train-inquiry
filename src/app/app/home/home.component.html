@@ -1,91 +1,43 @@
 
 <app-header></app-header>
-<div class="row">
-  <div class="column">
-    <div class="card" (click)="goTotrainschedule()">
-      <h3>Train Schedule</h3>
-      <a class="" href="#" routerLink="/trainschedule" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
-      <!-- <p>Some text</p>
-      <p>Some text</p> -->
+<div class="Container">
+  <div class="row">
+    <div class="column">
+      <div class="card" (click)="goTotrainschedule()">
+        <h3>Train Schedule</h3>
+        <a class="" href="#" routerLink="/trainschedule" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
+        <!-- <p>Some text</p>
+        <p>Some text</p> -->
+      </div>
     </div>
-  </div>
-
-  <div class="column">
-    <div class="card" (click)="goTotrainbwstation()">
-      <h3>Train B/W Station</h3>
-      <a href="#" class=""routerLink="/trainbwstation" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
-      <!-- <p>Some text</p>
-      <p>Some text</p> -->
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <div class="card" (click)="goTolivestation()">
-      <h3>Live Station</h3>
-      <a href="#" class=""routerLink="/livestation" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
-      <!-- <p>Some text</p>
-      <p>Some text</p> -->
+  
+    <div class="column">
+      <div class="card" (click)="goTotrainbwstation()">
+        <h3>Train B/W Station</h3>
+        <a href="#" class=""routerLink="/trainbwstation" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
+        <!-- <p>Some text</p>
+        <p>Some text</p> -->
+      </div>
     </div>
   </div>
   
-  <div class="column">
-    <div class="card" (click)="goTospotyourtrain()">
-      <h3>Spot Your Train</h3>
-      <a href="#" class="" routerLink="/spotyourtrain" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
-      <!-- <p>Some text</p>
-      <p>Some text</p> -->
+  <div class="row">
+    <div class="column">
+      <div class="card" (click)="goTolivestation()">
+        <h3>Live Station</h3>
+        <a href="#" class=""routerLink="/livestation" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
+        <!-- <p>Some text</p>
+        <p>Some text</p> -->
+      </div>
     </div>
-  </div>
-</div>  
-  <style>
-    * {
-      box-sizing: border-box;
-    }
     
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /* Float four columns side by side */
-    .column {
-      float: center;
-      width: 30%;
-      padding: 0 0px;
-    }
-    .column{ margin: 50px;}
-    
-    /* Remove extra left and right margins, due to padding */
-    .row {margin: 100px;
-          padding-left: 100px;}
-    
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Responsive columns */
-    @media screen and (max-width: 600px) {
-      .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 0px;
-      }
-    }
-    
-    /* Style the counter cards */
-    .card {
-      box-shadow: 0 4px 8px 0 rgba(212, 206, 209, 0.2);
-      padding: 16px;
-      text-align: center;
-      background-color: #b3b3c2;
-      
-    }
-    .card:hover {
-      box-shadow: 0 16px 25px 0 rgba(23, 54, 132, 0.996);
-}
-
-    </style>
+    <div class="column">
+      <div class="card" (click)="goTospotyourtrain()">
+        <h3>Spot Your Train</h3>
+        <a href="#" class="" routerLink="/spotyourtrain" routerLinkActive="active" ariaCurrentWhenActive="page">Click Here</a>
+        <!-- <p>Some text</p>
+        <p>Some text</p> -->
+      </div>
+    </div>
+  </div>  
+</div>
