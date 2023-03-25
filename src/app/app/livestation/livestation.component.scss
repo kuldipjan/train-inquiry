@@ -1,17 +1,4 @@
-.container-fluid{
-    display: grid;
-    margin: -80px;
 
-}
-.col{
-    text-align: end;
-    
-    
-}
-.center{
-    padding: 50px;
-    margin: 50px;
-}
 .button {
     background-color: #150494d6; /* Green */
     border: none;
@@ -32,11 +19,10 @@
   .btn-primary{
     padding: 5px;
     margin: 5px;
+    width: 60px;
+    margin-bottom: 10px;
   }
-  form{
-    padding: 15px;
-
-  }
+  
    // ===============================table Css==========================/
    .left{
     float: left;
@@ -56,10 +42,15 @@ b{
   font-weight: bold;
 }
 form{
-padding: 50px;
- 
- background-color: aqua;
-
+  background-color: aqua;
 }
+div{
+  padding-left: 50px;
+  padding-top: 25px;
+}
+input{
+  width: 500px;
+}
+
 
 

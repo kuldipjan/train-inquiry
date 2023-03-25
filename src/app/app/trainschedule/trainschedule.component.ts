@@ -12,7 +12,8 @@ export class TrainscheduleComponent implements OnInit {
   fname: string = '';
   tital = 'Reactiveforms';
   reactiveForm: any = FormGroup;
- 
+
+
 
   onSubmit() {
     console.log(this.reactiveForm.value)
@@ -32,6 +33,7 @@ export class TrainscheduleComponent implements OnInit {
      
     });
    }
+  
   selectToday() {
 		this.model = this.calendar.getToday();}
 
@@ -41,6 +43,10 @@ export class TrainscheduleComponent implements OnInit {
       date: [null, Validators.required]
       
     });
+  }
+  clearInput() {
+    // Clear the input field
+    this.reactiveForm.get('fname')?.reset();
   }
 
 }

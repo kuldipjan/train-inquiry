@@ -1,95 +1,63 @@
 <app-header></app-header>
 
 <form [formGroup]="myGroup"(ngSubmit)="onsubmit()">
-    <div class="form-group">
-      <label for="fname">Station</label><br>
-      <input type="text" id="fname" name="fname"[(ngModel)]="fname" placeholder="Station"
-        size="50" formControlName="fname" />
-      <button type="button" class="btn btn-primary btn-sm">Clear</button>
-    </div>
-    <div class="form-group">
+  <div>
+      <label for="fname">From Station</label><br>
+      <input type="text" id="fname" name="fname"[(ngModel)]="fname" placeholder="From Station" size="50" formControlName="fname" />
+      <button type="button" class="btn btn-primary btn-sm">Clear</button><br>
       <label for="fname">Go Station</label><br>
       <input type="text" name="lname" [(ngModel)]="lname" placeholder="Go Station" size="50" formControlName="lname" />
-      <button type="button" class="btn btn-primary btn-sm">Clear</button>
-    </div>
-    <button type="button" (click)="onsubmit()" [disabled]="myGroup.invalid">Submit</button><br><br><br><br>
+      <button type="button" class="btn btn-primary btn-sm">Clear</button><br><br>
+      <button type="button" (click)="onsubmit()" [disabled]="myGroup.invalid">Submit</button>
+     </div><br><br><br><br>
     <table class="table">
       <tbody>
-        <tr>
-          <td colspan="3">
-            <div class="textalign-center">
-              <span class="left"><b>22956</b>
-                KUTCH EXPRESS<br></span>
-              <span class="right">Daily | Superfast</span><br>
-              </div>
-              <div class="textalign-center">
-                <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
-                <b>--03:14 Hrs.--</b>
-                2S,SL,3A,2A,1A
-                <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
-                </div>
-              </td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <div class="textalign-center">
-              <span class="left"><b>13034</b>
-                GUJARAT QUEEN<br></span>
-              <span class="right">Daily | Memu</span><br>
-              </div>
-              <div class="textalign-center">
-                <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
-                <b>--03:14 Hrs.--</b>
-                2S,SL,3A,2A,1A
-                <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
-                </div>
-              </td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <div class="textalign-center">
-              <span class="left"><b>22056</b>
-                SABARMATI EXPRESS<br></span>
-              <span class="right">Daily | Superfast</span><br>
-              </div>
-              <div class="textalign-center">
-                <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
-                <b>--03:14 Hrs.--</b>
-                2S,SL,3A,2A,1A
-                <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
-                </div>
-              </td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <div class="textalign-center">
-              <span class="left"><b>22066</b>
-               VANDE BHARAT<br></span>
-              <span class="right">Daily | Superfast</span><br>
-              </div>
-              <div class="textalign-center">
-                <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
-                <b>--03:14 Hrs.--</b>
-                2S,SL,3A,2A,1A
-                <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
-                </div>
-              </td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <div class="textalign-center">
-              <span class="left"><b>22046</b>
-                SAIRASTHRA EXPRSS<br></span>
-              <span class="right">Daily | Superfast</span><br>
-              </div>
-              <div class="textalign-center">
-                <span class="left"><b>04:50</b><br>Vadodara Jn<br>BRC</span>
-                <b>--03:14 Hrs.--</b>
-                2S,SL,3A,2A,1A
-                <span class="right"><b>15:50</b><br>Valsad Jn<br>BL</span>
-                </div>
-              </td>
-        </tr>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Train [SRC-DSTN]<br>
+              <span>Name</span></th>
+              <th>STA<br>
+              <span>STD</span></th>
+              <th>ETA<br>
+              <span>ETD</span></th>
+              <th>Delay<br>
+              <span>Hrs.</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>19038 [BJU-BDTS]<br>
+              <span>AVADH EXPRESS</span></td>
+              <td>21:20 24-Mar<br>
+                <span>21:28 24-Mar</span></td>
+              <td>23:51<br>
+              <span>23:56</span></td>
+              <td>02:31<br>
+                <span>02:28</span></td>
+            </tr>
+            <tr>
+              <td>19038 [BJU-BDTS]<br>
+                <span>AVADH EXPRESS</span></td>
+                <td>21:20 24-Mar<br>
+                  <span>21:28 24-Mar</span></td>
+                <td>23:51<br>
+                <span>23:56</span></td>
+                <td>02:31<br>
+                  <span>02:28</span></td>
+            </tr>
+            <tr>
+              <td>19038 [BJU-BDTS]<br>
+              <span>AVADH EXPRESS</span></td>
+              <td>21:20 24-Mar<br>
+                <span>21:28 24-Mar</span></td>
+              <td>23:51<br>
+              <span>23:56</span></td>
+              <td>02:31<br>
+                <span>02:28</span></td>
+            </tr>
+          </tbody>
+        </table>
       </tbody>
     </table>
   

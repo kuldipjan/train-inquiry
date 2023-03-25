@@ -1,10 +1,12 @@
-
-
-.col-group{
-    padding: 3px;
-   
-   
+.form-group{
+  padding-left: 50px;
+  padding-top: 25px;
 }
+input{
+  width: 500px;
+
+}
+
 .button {
     background-color: #150494d6; /* Green */
     border: none;
@@ -23,12 +25,12 @@
     color: white;
   }
   .btn-primary{
-    padding: 5px;
-    margin: 5px;
-  }
+    padding: 3px;
+    margin: 10px;
+    width: 60px;
+    margin-bottom: 15px;}
  form{
-  background-color: aqua;
-  padding: 50px;
+  background-color: lightsteelblue;
  }
    
   

@@ -291,6 +291,12 @@ export class TrainbwstationComponent implements OnInit {
     this.filtered = this.station.filter(t=>t.stationname ==this.tstation);
 
   }
+  clear1(){
+    this.fstation = "";
+  }
+  clear2(){
+    this.tstation = "";
+  }
   
 
   ngOnInit(): void {
